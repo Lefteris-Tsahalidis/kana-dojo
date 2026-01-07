@@ -7,6 +7,11 @@
   --breakpoint-3xl: 110rem;
 }
 
+/* Prevent layout shift when scrollbar appears/disappears between pages */
+html {
+  scrollbar-gutter: stable;
+}
+
 body {
   touch-action: manipulation; /* Prevents pinch-to-zoom */
   overscroll-behavior: none; /* Prevents zooming on iOS */

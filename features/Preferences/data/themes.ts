@@ -249,6 +249,12 @@ const baseThemeSets: BaseThemeGroup[] = [
         secondaryColor: 'oklch(55.0% 0.145 350.0 / 1)',
       },
       {
+        id: 'starry-tanabata',
+        backgroundColor: 'oklch(15.0% 0.048 275.0 / 1)',
+        mainColor: 'oklch(88.0% 0.125 255.0 / 1)',
+        secondaryColor: 'oklch(78.0% 0.165 330.0 / 1)'
+      },  
+      {
         id: 'samurai-steel',
         backgroundColor: 'oklch(18.0% 0.022 250.0 / 1)',
         mainColor: 'oklch(80.0% 0.055 240.0 / 1)',
